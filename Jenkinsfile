@@ -10,6 +10,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 echo "doing build stuff.."
+                cd myapp
                 python3 hellow_world.py
                 '''
             }
