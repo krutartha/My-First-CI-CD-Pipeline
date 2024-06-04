@@ -11,7 +11,7 @@ pipeline {
                 sh '''
                 echo "doing build stuff.."
                 cd myapp
-                python3 hellow_world.py
+                python3 hello_world.py
                 '''
             }
         }
